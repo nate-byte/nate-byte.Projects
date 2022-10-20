@@ -1,4 +1,4 @@
-# nate-byte.Projects
+# README
 This is where I have placed and uploaded any relevant coding projects.
 You can find my python projects under "PythonProjects".
 When Square Attack is a game I created with a team of students, it can be found under "WhenSquaresAttack".
