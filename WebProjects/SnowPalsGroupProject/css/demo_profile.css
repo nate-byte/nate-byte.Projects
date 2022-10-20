@@ -1,0 +1,31 @@
+body {
+    background-color: #d8e2f3;
+    margin: 0px 200px;
+}
+
+.userinfo {
+    background-color: #b3c6e7;
+    width: 100%;
+    border: none;
+    margin: 0.3% auto;
+}
+
+.userinfo p {
+    background-color: #b3c6e7;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    margin: 0.3% auto;
+}
+
+.userpic img {
+    float: left;
+    margin: 10px 20px 20px 10px;
+    background-color: #2f5496;
+    position: relative;
+    width: 15%;
+    height: 15%;
+    object-fit: fill;
+}
