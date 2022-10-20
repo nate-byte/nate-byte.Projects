@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="Style/SimpleSignUp.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<head>
+<title>Sing Up Sheet</title>
+</head>
+<body>
+    <form action = "mainPhp.php" method = "POST">
+        <table class="timeTable">
+            <caption style="margin-bottom:0.25cm;"><h1>Sign-Up Sheet</h1> </caption>
+            <tr><thead><th  class="tableTop">Time</th><th>Name</th></thead></tr>
+            <tbody>
+            <tr><td> 8:00 AM </td><td> <input name="8am" type="text"/> </td></tr>
+            <tr><td> 9:00 AM </td><td> <input name="9am" type="text"/> </td></tr>
+            <tr><td> 10:00 AM </td><td> <input name="10am" type="text"/> </td></tr>
+            <tr><td> 11:00 AM </td><td> <input name="11am" type="text"/> </td></tr>
+            <tr><td> 12:00 PM </td><td> <input name="12pm" type="text"/> </td></tr>
+            <tr><td> 1:00 PM </td><td> <input name="1pm" type="text"/> </td></tr>
+            <tr><td> 2:00 PM </td><td> <input name="2pm" type="text"/> </td></tr>
+            <tr><td> 3:00 PM </td><td> <input name="3pm" type="text"/> </td></tr>
+            <tr><td> 4:00 PM </td><td> <input name="4pm" type="text"/> </td></tr>
+            <tr><td> 5:00 PM </td><td> <input name="5pm" type="text"/> </td></tr>
+            </tbody>
+        </table>
+        <br>
+        <div id = "btn">
+            <input name= "submit" type = "submit" value = "Submit"/>
+        </div>
+    </form>
+</body>
+</html>
